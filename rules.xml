@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Rules>
+    <Rule id="money">
+        <Question>Do you have 150€ for a hotel room?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    <Rule id="service">
+        <Question>Is room service important for you?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="false"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    <Rule id="luxury">
+        <Question>What services would you use?</Question>
+        <Answer>
+            <Selection value="true">
+                <MultipleValue value="sauna,buffet,pool party,gym,playroom,thai massage"/>
+            </Selection>
+            <Selection value="false">
+                <MultipleValue value="sauna,massage,two meals"/>
+            </Selection>
+        </Answer>
+    </Rule>
+</Rules>
