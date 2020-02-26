@@ -17,8 +17,8 @@ namespace ExpertSystem
             } */
 
             provider.CollectAnswers();
-            Console.Write("Enter an ID: ");
-            Console.WriteLine(provider.GetAnswerByQuestion(Console.ReadLine()));
+            /* Console.Write("Enter an ID: ");
+            Console.WriteLine(provider.GetAnswerByQuestion(Console.ReadLine())); */
             Console.WriteLine(provider.Evaluate());
         }
     }

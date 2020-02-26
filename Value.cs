@@ -4,7 +4,7 @@ namespace ExpertSystem
 {
     public abstract class Value
     {
-        public abstract List<string> GetInputPattern();
-        public abstract bool GetSelectionType();
+        public List<string> InputPattern { get; set; }
+        public bool SelectionType { get; set; }
     }
 }

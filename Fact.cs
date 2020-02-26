@@ -16,17 +16,5 @@ namespace ExpertSystem
             Service = service;
             Luxury = luxury;
         }
-        /*         public Set GetIDSet()
-                {
-
-                }
-                public void SetFactValueByID(string id, bool value)
-                {
-
-                }
-                public bool GetValueByID(string id)
-                {
-
-                } */
     }
 }

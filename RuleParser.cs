@@ -16,7 +16,7 @@ namespace ExpertSystem
         public override void LoadXMLDocument(string path)
         {
             Answer answer = new Answer();
-            Value value;
+            Value value = null;
             string idPath;
             string questionPath;
             XmlDocument xml = new XmlDocument();
@@ -39,7 +39,7 @@ namespace ExpertSystem
 
                     if (values.Length == 1)
                     {
-                        value = new SingleValue(valueList, bool.Parse(childNode.Attributes[0].InnerText));
+                        value = new SingleValue(valueList, bool.Parse(childNode.Attributes[0].InnerText));   //keep in mind
                     }
                     else if (values.Length > 1)
                     {

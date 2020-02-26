@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Rules>
-    <Rule id="money">
+    <Rule id="Money">
         <Question>Do you have 150€ for a hotel room?</Question>
         <Answer>
             <Selection value="true">
@@ -11,7 +11,7 @@
             </Selection>
         </Answer>
     </Rule>
-    <Rule id="service">
+    <Rule id="Service">
         <Question>Is room service important for you?</Question>
         <Answer>
             <Selection value="true">
@@ -22,14 +22,14 @@
             </Selection>
         </Answer>
     </Rule>
-    <Rule id="luxury">
-        <Question>What services would you use?</Question>
+    <Rule id="Luxury">
+        <Question>Which service would you use? (sauna,buffet,pool party,gym,playroom,thai massage,massage,two meals)</Question>
         <Answer>
             <Selection value="true">
                 <MultipleValue value="sauna,buffet,pool party,gym,playroom,thai massage"/>
             </Selection>
             <Selection value="false">
-                <MultipleValue value="sauna,massage,two meals"/>
+                <MultipleValue value="massage,two meals"/>
             </Selection>
         </Answer>
     </Rule>

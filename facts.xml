@@ -3,25 +3,25 @@
     <Fact id="best">
         <Description value="Hotel room with extras and luxury hookers"/>
         <Evals>
-            <Eval id="money">true</Eval>
-            <Eval id="service">true</Eval>
-            <Eval id="luxury">true</Eval>
+            <Eval id="Money">true</Eval>
+            <Eval id="Service">true</Eval>
+            <Eval id="Luxury">true</Eval>
         </Evals>
     </Fact>
     <Fact id="normal">
         <Description value="A decent room with a room service"/>
         <Evals>
-            <Eval id="money">false</Eval>
-            <Eval id="service">true</Eval>
-            <Eval id="luxury">false</Eval>
+            <Eval id="Money">false</Eval>
+            <Eval id="Service">true</Eval>
+            <Eval id="Luxury">false</Eval>
         </Evals>
     </Fact>
     <Fact id="cheap">
         <Description value="A degraded room where you can sleep and that is it"/>
         <Evals>
-            <Eval id="money">false</Eval>
-            <Eval id="service">false</Eval>
-            <Eval id="luxury">false</Eval>
+            <Eval id="Money">false</Eval>
+            <Eval id="Service">false</Eval>
+            <Eval id="Luxury">false</Eval>
         </Evals>
     </Fact>
 </Facts>
